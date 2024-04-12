@@ -171,7 +171,7 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
           buildBottomHalfContainer(false),
           // Bottom buttons
           Positioned(
-            top: MediaQuery.of(context).size.height - 250,
+            top: MediaQuery.of(context).size.height - 100,
             right: 0,
             left: 0,
             child: Column(
